@@ -2,10 +2,19 @@
 
 int main(void)
 {
-	float a, b;
-	printf("èº«é•·ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ :");
-	scanf("%f", &a);		//èº«é•·aã®å…¥åŠ›
-	b = (a - 100)*0.9;
-	printf("æ¨™æº–ä½“é‡ã¯%.1fã§ã™", b);	//æ¨™æº–ä½“é‡ã®è¡¨ç¤º
+	int a;
+	printf("“_”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
+	scanf("%d", &a);
+	if(a>=80)
+	printf("•]‰¿‚Í—D‚Å‚·B\n");
+	
+	else if(a>=70)
+	printf("•]‰¿‚Í—Ç‚Å‚·B\n");
+	
+	else if(a>=60)
+	printf("•]‰¿‚Í‰Â‚Å‚·B\n");
+	
+	else
+	printf("•]‰¿‚Í•s‰Â‚Å‚·B\n");
 	return 0;
 }
