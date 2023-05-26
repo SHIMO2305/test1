@@ -3,9 +3,9 @@
 int main(void)
 {
 	float a, b;
-	printf("g’·‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢ :");
+	printf("èº«é•·ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã­ :");
 	scanf("%f", &a);
 	b = (a - 100)*0.9;
-	printf("•W€‘Ìd‚Í%.1f‚Å‚·", b);
+	printf("æ¨™æº–ä½“é‡ã¯%.1fã§ã™", b);
 	return 0;
 }
